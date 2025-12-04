@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #1e316f;
+    color: #fff;
+    font-family: "Space Grotesk", sans-serif;
+}
+.header {
+    background: url(img/BG-header.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    justify-items: center;
+    padding: 2rem;
+    gap: 1rem;
+    position: relative;
+}
+.title {
+    text-align: center;
+}
+.image-container {
+    aspect-ratio: 1 / 1;
+    background: #ffffff77;
+    border-radius: 50%;
+    width: 10rem;
+    padding: 0.5rem;
+}
+.image {
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    width: 100%;
+    border-radius: 50%;
+    vertical-align: top;
+}
+.equalizer {
+    position: absolute;
+    bottom: 0;
+    opacity: 50%;
+}
+.container-tracks {
+    margin: 2rem; 
+    margin-left: 4rem;
+    display: grid;
+    gap: 1rem;
+}
+.track {
+    display: flex;
+    align-items: center;
+    background: #9dbdd37c;
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-left: 3rem;
+    position: relative;
+    cursor: pointer;
+}
+.track__thumb-container {
+    width: 4rem;
+    position: absolute;
+    left: -2rem;
+}
+.track__thumb {
+
+}
+.track__name {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
