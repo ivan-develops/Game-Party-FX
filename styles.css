@@ -43,6 +43,12 @@ body {
     bottom: 0;
     opacity: 50%;
 }
+.vguadalupe {
+    position: absolute;
+    bottom: 0;
+    height: 10rem;
+    right: 2rem;
+}
 .container-tracks {
     margin: 2rem; 
     margin-left: 4rem;
