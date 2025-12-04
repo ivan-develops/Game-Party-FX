@@ -11,7 +11,7 @@ const tracks = [
     },
     {
         name: 'Que vivan los mongólicos',
-        sound: 'data/sounds/que-vivan-los-mongolicos-diomedes-diaz',
+        sound: 'data/sounds/que-vivan-los-mongolicos-diomedes-diaz.mp3',
         thumb: 'img/thumb-track.svg',
     },
     {
@@ -20,7 +20,7 @@ const tracks = [
         thumb: 'img/thumb-track.svg',
     },
     {
-        name: 'Quedé-mínimo-común',
+        name: 'Quedé mínimo común',
         sound: 'data/sounds/quede-minimo-comun.mp3',
         thumb: 'img/thumb-track.svg',
     },

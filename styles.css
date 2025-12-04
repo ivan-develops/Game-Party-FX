@@ -64,11 +64,8 @@ body {
     position: absolute;
     left: -2rem;
 }
-.track__thumb {
-
-}
+/* .track__thumb*/
 .track__name {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 500;
 }
-
