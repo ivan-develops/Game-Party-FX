@@ -1,25 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 
+:root {
+    --tracks:#9dbdd37c;
+    --background: #1e316f;
+    --gradiente-hover:linear-gradient(#f5d23f , #e5a82c);
+}
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body {
-    background: #1e316f;
+    background: var(--background);
     color: #fff;
     font-family: "Space Grotesk", sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
 }
 .header {
     background: url(img/BG-header.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    display: grid;
-    justify-items: center;
-    padding: 2rem;
-    gap: 1rem;
-    position: relative;
+    
+    .container {
+        display: grid;
+        justify-items: center;
+        padding: 2rem;
+        gap: 1rem;
+        position: relative;
+    }
 }
 .title {
     text-align: center;
@@ -49,6 +62,14 @@ body {
     height: 10rem;
     right: 2rem;
 }
+.rosa-roja {
+    position: absolute;
+    transform: rotate(90deg);
+    bottom: -4.7rem;
+}
+.main {
+    padding-bottom: 2rem;
+}
 .container-tracks {
     margin: 2rem; 
     margin-left: 4rem;
@@ -58,12 +79,27 @@ body {
 .track {
     display: flex;
     align-items: center;
-    background: #9dbdd37c;
+    background: var(--tracks);
     border-radius: 1rem;
     padding: 1rem;
     padding-left: 3rem;
     position: relative;
     cursor: pointer;
+    transition: all 0.3s ease;
+
+    &:active {
+        transform: scale(.9);
+        box-shadow: 0 0 20px 20px #fff;
+    }
+    &:hover {
+        background: var(--gradiente-hover);
+    } 
+    &:hover .track__name {
+        color: var(--background);
+    }
+    &:hover svg {
+        color: #000;
+    }
 }
 .track__thumb-container {
     width: 4rem;
@@ -74,4 +110,14 @@ body {
 .track__name {
     font-size: 1.3rem;
     font-weight: 500;
+
+    &::first-letter{
+        text-transform: capitalize;
+    }
+}
+.footer {
+    box-shadow: 0 0 10px 5px #ffffff70;
+}
+.footer__img{
+    width: 100%;
 }

@@ -34,6 +34,19 @@ const tracks = [
         sound: 'data/sounds/feliz-navidad-inmundo-animal.mp3',
         thumb: 'img/thumb-track.svg',
     },
+    {
+        name: 'Sell sintio el verdadero terror',
+        sound: 'data/sounds/sell-sintio-el-verdadero-terror.mp3',
+        thumb: 'img/thumb-track.svg',
+    },{
+        name: 'Va jugar o qué',
+        sound: 'data/sounds/va-jugar-o-que.mp3',
+        thumb: 'img/thumb-track.svg',
+    },{
+        name: 'solo quedan las ganas de llorar',
+        sound: 'data/sounds/solo-quedan-las-ganas-de-llorar.mp3',
+        thumb: 'img/thumb-track.svg',
+    },
 ];
 
 const container_tracks = document.getElementById('container-tracks');
