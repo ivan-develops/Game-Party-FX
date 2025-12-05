@@ -38,13 +38,55 @@ const tracks = [
         name: 'Sell sintio el verdadero terror',
         sound: 'data/sounds/sell-sintio-el-verdadero-terror.mp3',
         thumb: 'img/thumb-track.svg',
-    },{
+    },
+    {
         name: 'Va jugar o qué',
         sound: 'data/sounds/va-jugar-o-que.mp3',
         thumb: 'img/thumb-track.svg',
-    },{
+    },
+    {
         name: 'solo quedan las ganas de llorar',
         sound: 'data/sounds/solo-quedan-las-ganas-de-llorar.mp3',
+        thumb: 'img/thumb-track.svg',
+    },
+    {
+        name: 'Jingle bell Arcangel 🎄',
+        sound: 'data/sounds/arcangel-jingle-bell-feliz-navidad.mp3',
+        thumb: 'img/thumb-track.svg',
+    },
+    {
+        name: 'detector de mk',
+        sound: 'data/sounds/detector de mk.mp3',
+        thumb: 'img/thumb-track.svg',
+    },
+    {
+        name: 'dry fart',
+        sound: 'data/sounds/dry-fart.mp3',
+        thumb: 'img/thumb-track.svg',
+    },
+    {
+        name: 'Van Damme ganar o morir',
+        sound: 'data/sounds/van-damme-ganar-o-morir.mp3',
+        thumb: 'img/thumb-track.svg',
+    },
+    {
+        name: 'Navidad remix 🎄',
+        sound: 'data/sounds/foquitos-de-navidad-remix.mp3',
+        thumb: 'img/thumb-track.svg',
+    },
+    {
+        name: 'estoy cansado jefe',
+        sound: 'data/sounds/estoy-cansado-jefe.mp3',
+        thumb: 'img/thumb-track.svg',
+    },
+    {
+        name: 'noo la policia',
+        sound: 'data/sounds/nooo-la-polizia.mp3',
+        thumb: 'img/thumb-track.svg',
+    },
+    {
+        name: 'bart Simpson maldita perra',
+        sound: 'data/sounds/bart-simpson-maldita-perra.mp3',
         thumb: 'img/thumb-track.svg',
     },
 ];
