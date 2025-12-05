@@ -10,8 +10,18 @@ const tracks = [
         thumb: 'img/thumb-track.svg',
     },
     {
+        name: 'Lo saco',
+        sound: 'data/sounds/lo-saco.mp3',
+        thumb: 'img/thumb-track.svg',
+    },
+    {
         name: 'Que vivan los mongólicos',
         sound: 'data/sounds/que-vivan-los-mongolicos-diomedes-diaz.mp3',
+        thumb: 'img/thumb-track.svg',
+    },
+    {
+        name: 'Tengo miedo',
+        sound: 'data/sounds/tengo-miedo.mp3',
         thumb: 'img/thumb-track.svg',
     },
     {
@@ -30,13 +40,13 @@ const tracks = [
         thumb: 'img/thumb-track.svg',
     },
     {
-        name: 'Feliz navidad inmundo animal',
-        sound: 'data/sounds/feliz-navidad-inmundo-animal.mp3',
+        name: 'Tengo miedo',
+        sound: 'data/sounds/tengo-miedo.mp3',
         thumb: 'img/thumb-track.svg',
     },
     {
-        name: 'Sell sintio el verdadero terror',
-        sound: 'data/sounds/sell-sintio-el-verdadero-terror.mp3',
+        name: 'Feliz navidad inmundo animal',
+        sound: 'data/sounds/feliz-navidad-inmundo-animal.mp3',
         thumb: 'img/thumb-track.svg',
     },
     {
@@ -62,6 +72,11 @@ const tracks = [
     {
         name: 'dry fart',
         sound: 'data/sounds/dry-fart.mp3',
+        thumb: 'img/thumb-track.svg',
+    },
+    {
+        name: 'Cell sintio el verdadero terror',
+        sound: 'data/sounds/cell-sintio-el-verdadero-terror.mp3',
         thumb: 'img/thumb-track.svg',
     },
     {
