@@ -8,10 +8,12 @@ tracks.forEach((track,indice) => {
     newTrack.className = 'track';
     newTrack.innerHTML = `
         <div class="track__thumb-container" id="track__thumb-container${indice}">
-            <img src="${track.thumb}" alt="thumb track" class="track__thumb">
+            <p class="track__thumbEmoji">${track.emoji}</p>
         </div>
         <h2 class="track__name">${track.name}</h2>
     `;
+    //* En caso de sustituir el emoji por img:
+    // <img src="${track.thumb}" alt="thumb track" class="track__thumb"></img>
     newTrack.addEventListener('click' , ()=> {
         const sonido = new Audio(track.sound);
         sonido.play();

@@ -107,6 +107,9 @@ body {
     left: -2rem;
 }
 /* .track__thumb*/
+.track__thumbEmoji {
+    font-size: 3.5rem;
+}
 .track__name {
     font-size: 1.3rem;
     font-weight: 500;
