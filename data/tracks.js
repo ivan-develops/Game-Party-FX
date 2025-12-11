@@ -12,28 +12,28 @@ export const tracks = [
         emoji:'🙏',
     },
     {
-        name: 'Lo saco ',
+        name: 'Lo saco',
         sound: './data/sounds/lo-saco.mp3',
         thumb: 'img/thumb-track.svg',
         emoji:'🔫',
     },
     {
-        name: 'Que vivan los mongólicos ',
-        sound: './data/sounds/que-vivan-los-mongolicos-diomedes-diaz.mp3',
+        name: 'Anime wow',
+        sound: './data/sounds/anime-wow.mp3',
         thumb: 'img/thumb-track.svg',
-        emoji:'👨‍🦲',
-    },
-    {
-        name: 'Tengo miedo ',
-        sound: './data/sounds/tengo-miedo.mp3',
-        thumb: 'img/thumb-track.svg',
-        emoji:'😨',
+        emoji:'✨',
     },
     {
         name: 'Corre perra',
         sound: './data/sounds/Corre-perra.mp3',
         thumb: 'img/thumb-track.svg',
         emoji:'🏃‍♂️',
+    },
+    {
+        name: 'Tengo miedo',
+        sound: './data/sounds/tengo-miedo.mp3',
+        thumb: 'img/thumb-track.svg',
+        emoji:'😨',
     },
     {
         name: 'y se marcho',
@@ -63,7 +63,7 @@ export const tracks = [
         name: 'Señor me has mirado a los ojos',
         sound: './data/sounds/senor-me-has-mirado-a-los-ojos.mp3',
         thumb: 'img/thumb-track.svg',
-        emoji:'👀',
+        emoji:'👼',
     },
     {
         name: 'Feliz navidad inmundo animal',
@@ -72,16 +72,16 @@ export const tracks = [
         emoji:'🔫',
     },
     {
+        name: 'Que vivan los mongólicos',
+        sound: './data/sounds/que-vivan-los-mongolicos-diomedes-diaz.mp3',
+        thumb: 'img/thumb-track.svg',
+        emoji:'👨‍🦲',
+    },
+    {
         name: 'Grillos',
         sound: './data/sounds/Grillos.mp3',
         thumb: 'img/thumb-track.svg',
         emoji:'🦗',
-    },
-    {
-        name: 'Va jugar o qué',
-        sound: './data/sounds/va-jugar-o-que.mp3',
-        thumb: 'img/thumb-track.svg',
-        emoji:'😤',
     },
     {
         name: 'solo quedan las ganas de llorar',
@@ -148,5 +148,11 @@ export const tracks = [
         sound: './data/sounds/bart-simpson-maldita-perra.mp3',
         thumb: 'img/thumb-track.svg',
         emoji:'🐶',
+    },
+    {
+        name: 'Va jugar o qué',
+        sound: './data/sounds/va-jugar-o-que.mp3',
+        thumb: 'img/thumb-track.svg',
+        emoji:'😤',
     },
 ];
