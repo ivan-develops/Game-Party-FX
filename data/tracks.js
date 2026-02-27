@@ -6,6 +6,12 @@ export const tracks = [
         emoji:'😏',
     },
     {
+        name: 'Niño pastor',
+        sound: './data/sounds/Niño-pastor.mp3',
+        thumb: 'img/thumb-track.svg',
+        emoji:'⛪',
+    },
+    {
         name: 'Ya no aguanto más',
         sound: './data/sounds/ya-no-aguanto-mas.mp3',
         thumb: 'img/thumb-track.svg',
