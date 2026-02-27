@@ -1,5 +1,11 @@
 export const tracks = [
     {
+        name: 'Sáquela Vicky Dávila ',
+        sound: './data/sounds/Viky-davila-saquela.mp3',
+        thumb: 'img/thumb-track.svg',
+        emoji:'😏',
+    },
+    {
         name: 'Ya no aguanto más',
         sound: './data/sounds/ya-no-aguanto-mas.mp3',
         thumb: 'img/thumb-track.svg',
